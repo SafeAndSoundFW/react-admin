@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './pages/demo/Life';
 import * as serviceWorker from './serviceWorker';
 
+// reactdom 初始化一个跟组件
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
