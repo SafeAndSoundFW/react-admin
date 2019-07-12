@@ -1,6 +1,8 @@
 import React from 'react'
 import Child from './Child'
+import {Button} from 'antd'
 import "./index.css"
+// import 'antd/dist/antd.css'
 // 导出一个类，继承自react这个组件
 export default class Life extends React.Component{
     // 初始化一个实例出来
@@ -30,6 +32,7 @@ export default class Life extends React.Component{
         // }
         return <div className="content">
             <p>React生命周期介绍</p>
+            <Button>点击一下</Button>
             <button onClick={this.handleAdd}>点击一下</button>
             <button onClick={this.handleClick.bind(this)}>点击一下</button>
             <p>{this.state.count}</p>
